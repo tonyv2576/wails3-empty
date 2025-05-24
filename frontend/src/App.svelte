@@ -1,8 +1,21 @@
 <script>
 </script>
 
-<h3>Hello</h3>
+<div>
+  <h3>Hello World!</h3>
+</div>
 
 <style>
-  /* Put your standard CSS here */
+  div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 3em;
+    font-weight: normal;
+  }
 </style>
